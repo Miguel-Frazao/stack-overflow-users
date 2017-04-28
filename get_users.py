@@ -34,4 +34,4 @@ for k, v in enumerate(sorted(data, key=lambda user_score: user_score[1], reverse
     user, score, badges = v    
     text += '{: <4} | {: <{}} | {: <4} | {: <5} | {: <6} | {}\n{}\n'.format(k, user, maxi, badges[0], badges[1], badges[2], score, row_separator)
 print(text)
-print('Parabéns ao {}, o utilizador com mais reputação do SOEN\n'.format(users[0]))
+print('Congratulations to {}, o the most reputated user from SOEN\n'.format(users[0]))
