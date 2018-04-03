@@ -25,7 +25,7 @@ for pag in range(1, pags+1):
 data = list(zip(users, score, badges))
 #print(data)
 
-print('\nRANKING STACK OVERFLOW PT:\n')
+print('\nRANKING STACK OVERFLOW:\n')
 maxi = len(max(users, key=len)) # O maior nome que temos para que se formate a tabela de acordo
 text = '{: <4} | {: <{}} | {} | {} | {} | {} \n'.format('RANK', 'USER', maxi, 'GOLD', 'PLATE', 'BRONZE', 'SCORE') # table head
 row_separator = '-'*len(text)
